@@ -50,6 +50,8 @@ INSTALLED_APPS = (
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+
+    'south',
     'message_app',
 )
 
@@ -73,7 +75,7 @@ WSGI_APPLICATION = 'messages.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql_psycopg2',
-        'NAME': 'messages',
+        'NAME': 'messages_db',
         'USER': 'manager',
         'PASSWORD': 'Testpass',
         'HOST': '127.0.0.1',
