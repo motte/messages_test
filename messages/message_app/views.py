@@ -5,6 +5,8 @@ from django.views.generic import CreateView, ListView
 from django.http import HttpResponse
 
 class PostMessageView(CreateView):
+    template_name = 'index.html'
+
 
     def post(self, request, *args, **kwargs):
 
