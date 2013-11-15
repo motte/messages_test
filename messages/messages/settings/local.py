@@ -53,6 +53,7 @@ INSTALLED_APPS = (
 
     'south',
     'message_app',
+    'simplejson',
 )
 
 MIDDLEWARE_CLASSES = (
